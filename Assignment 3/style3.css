@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;    
+    background-image: url(./Images/images.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.logo{
+    color:white;
+    font-size:35px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+#y{
+    color:yellow;
+    
+}
+#x{
+    color: grey;
+    font-size:45px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+
+    color: yellow;
+}
+
+.btn{
+    color:rgb(235, 222, 39);
+    background-color:black;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: bold;
+    transition: transform .4s;
+
+}
+.btn:hover{
+    transform:scale(1.1);
+    color: red;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    letter-spacing:2px;
+    margin: bottom 50px;
+}
+
+h1{
+    color: yellow;
+    margin: 20px 0 20px;
+    font-size:70px;
+}
+
+h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+span{
+    color: yellow;
+    margin: 20px 0 20px;
+
+}
+
+.newsletter form {
+    width: 400px;
+    max-width: 200%;
+    position: relative;
+}
+.newsletter form input:first-child{
+
+    width: 100%;
+    display: inline-block;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+
+}
+
+.newsletter form input:last-child
+{
+        position: absolute;
+        display: inline-block;
+        background-color: rgb(216, 216, 78);
+        padding: 10px 30px;
+        border:none;
+        color: white;
+        top:6px;
+        right:6px;
+        border-radius: 10px;
+        
+        
+    }
+
+.content .icons{
+    display: flex;
+    /* justify-content:center; */
+    justify-content: space-evenly;
+}
+
+.content .icons .fIcon{
+    display: inline-block;
+    position: relative;
+    top: 16px;
+}
+.content .icons .fIcon .icon{
+    display: inline-block;
+    transition: transform 0.4s;
+}
+
+.content .icons .fIcon a:hover{
+   
+    transform:scale(1.4);
+}
+
+img{
+    width: 35pxpx;
+    height:35px;
+}

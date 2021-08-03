@@ -1,0 +1,43 @@
+body{
+    background-color:black 
+}
+
+#top{
+    
+    color:white;
+    font-size: 400%;
+    text-align: center;
+    margin-left: 15px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.Htext{
+    
+    color:whitesmoke;
+    font-size:200%;
+    font-style: bold;
+    font-style: italic;
+
+}
+.Btext{
+    color: #76dbf5;
+    font-size:150%
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    border-style:groove;
+    border-width: 10px;
+    
+
+}
+.Centre{
+    
+    text-align:left;
+    margin-right: 200px;
+    margin-left:300px;
+  
+}
+
